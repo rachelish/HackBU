@@ -63,7 +63,7 @@ class Locations():
     "Action":3,
     "Documentary":4,
     "Indie":5,
-    "Sci-fi": 6
+    "Sci-fi": 6,
     "Drama": 7,
     "Western":8,
     "Animation":9,

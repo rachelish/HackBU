@@ -3,7 +3,7 @@ from user import User
 
 class Compare():
   def __init__(self):
-    
+    pass
     #temp test
     #if(User1.orientation == Bot1.orientation):
       #print("There's a match!")
@@ -12,7 +12,7 @@ class Compare():
     pass
     #print("compare works")
     
-  def compOri():
+  def gay():
     print("compOri works")
     pass
     #if same ori, call gay, lesbian, straight functions
@@ -21,14 +21,14 @@ class Compare():
       #
     
 
-  def compAge():
-    pass
-
-  def gay():
+  def straight():
     pass
 
   def lesbian():
     pass
 
-  def straight():
+  def bisexual():
+    pass
+
+  def pansexual():
     pass

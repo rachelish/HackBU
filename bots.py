@@ -17,10 +17,30 @@ class Bots():
 
 Bot1 = Bots()
 Bot1.__repr__()
-
+  
 botdict = {}
 for x in range(1, 50):
-  botdict["Bot{0}".format(x)] = Bots()
-
+  botdict["Bot {0}".format(x)] = Bots()
+  
 botdict
 
+def compare():
+  if User1.orientation == "s" and User1.gender == "m":
+    for x in Bot1.botdict:
+        if "Female" in Bot1.botdict[bot]:
+          if  "Gay" not in Bot1.botdict[bot]:
+            print (Bot1.botdict[bot])
+        else:
+          pass
+  if User1.orientation == "s" and User1.gender == "f":
+    for x in Bot1.botdict:
+        if "Male" in Bot1.botdict[bot]:
+          if  "Gay" not in botdict[bot]:
+            print (Bot1.botdict[bot])
+        else:
+          pass
+  
+  
+
+compare()
+  

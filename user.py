@@ -7,10 +7,12 @@ class User():
     self.name = name
     self.age = age
     self.gender = gender
+    self.orientation = orientation
 
   def orientation(self):
     while True:
       ori = input("Please select the letter of your sexual orientation: S(straight)/G(gay)/B(bisexual)/A(asexual)/P(pansexual) ").lower()
+      global orientation
       if ori == "s":
         orientation = "Straight"
         print(orientation)
@@ -62,5 +64,4 @@ class User():
     print(
       f" Name: {self.name}\n Age: {self.age}\n Gender: {self.gender}\n Orientation: {orientation} \n Pronouns: \n{pnouns}"
     )
-
 

@@ -1,11 +1,12 @@
-from bots import Bots
+import bots #import Bots
 from user import User
 from comparison import Compare
 
 def main():
+  global User1
   User1 = User()
-  User.orientation(self)
-  Bots()
+  User1.orientation()
+  Bot1 = bots.Bots()
   #test = bots.Bots()
   #Compare()
   #print("main works")
@@ -20,14 +21,3 @@ def main():
 
 
 main()
-
-def compare():
-  if User1.orientation == "s" and User1.gender == "m":
-    for x in botdict:
-        if "Female" in botdict[bot]:
-          if  "Gay" not in botdict[bot]:
-            print (botdict[bot])
-        else:
-          pass
-
-compare()

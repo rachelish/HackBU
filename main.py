@@ -1,23 +1,13 @@
-import bots #import Bots
+from bots import Bots  
+#import Bots
 from user import User
 from comparison import Compare
 
+
 def main():
   global User1
-  User1 = User()
-  User1.orientation()
-  Bot1 = bots.Bots()
-  #test = bots.Bots()
-  #Compare()
-  #print("main works")
-  #user
-  #bots = Bots("Martha", "19", "")
-  #comparison
+  user = User(input("Enter your name: "), int(input("Enter your age: ")), input("Enter your gender (M/F): "), input("Enter your sexual orientation: "))
+  Bot1 = Bots()
 
-  #Bot1 = Bot1("Rachel", 19, "Female", "Straight", "She/Her")
-  #for i in range(10):
-
-  #print(bots.Bot1)
 
 main()
-

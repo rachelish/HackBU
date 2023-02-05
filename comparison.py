@@ -5,11 +5,18 @@ class Compare():
   def __init__(self):
     pass
     #temp test
-    #if(User1.orientation == Bot1.orientation):
-      #print("There's a match!")
-    if(User1.orientation == Bots.orientation):
-      print("There's a match!")
-    pass
+  def comp_ori(user,botList):
+    match_ori=[]
+    match_loc=[]
+    for bot in botList:
+      if bot.ori==user.ori:
+        #if gay
+        pass
+        
+    if(user.gender == Bots.gender):
+      match_ori.append(bot)
+      place = input("choose a place: movies, woods, restaurant")
+      
     #print("compare works")
     
   def gay():

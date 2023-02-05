@@ -1,31 +1,33 @@
 import random
 from user import User
+#from locations imporT
+
+
 class Bots():
-#testing if we even need this def statement since i have the import here (it seems fine keep commented out for now)
-  #def __init__(self, name, age, genders, orientation):
-    names = ["Randy", "Oaks", "Jojo", "Razika", "Jaden", "Rachel", "Jeraph", "Hades", "Preston"]
-    gender = ["Female", "Male"]
-    orientation = ["Straight", "Gay", "Bisexual", "Asexual"]
-    #self.name = random.choice(names)
-    #self.age = random.choice(ages)
-    #self.gender = random.choice(gender)
-    #self.orientation = random.choice(orientation)
+  names = [
+    "Randy", "Oaks", "JoJo", "Razika", "Jaden", "Rachel", "Jeraph", "Hades",
+    "Preston"
+  ]
+  gender = ["female", "male"]
+  ori = ["straight", "gay", "bisexual", "asexual"]
+  #location = random.choice()
 
-for i in range(1, 50):
-    bot{i}=User(random.choice(names),random.randint(18,25),random.choice(genders),random.choice(orientation)) 
+botList = []
+for i in range(50):
+  bot = User(random.choice(Bots.names), random.randint(18, 25),
+             random.choice(Bots.gender), random.choice(Bots.ori))
+  botList.append(bot)
 
-  def __repr__(self):
-    return f" Name: {self.name}\n Age: {self.age}\n Gender: {self.gender}\n Orientation: {self.orientation}\n"
-
-Bot1 = Bots()
-Bot1.__repr__()
-  
-botdict = {}
-for x in range(1, 50):
-  botdict["Bot{0}".format(x)] = Bots()
-  
-botdict
-
-
-
-  
+#u iterated thru bots class instead of botList so it hated u
+#now the issue is sumn inside the loop
+#
+#just testing to see if the bots are working properly but cant get to run :(
+#wait a sec this works
+#raz we can do that right
+  #idk what that is is it supposed to be built in
+  #cant we jsut print the info instead of creating a function for displaying
+  # yes we can lol
+  #
+  # it took the hash number instead ofthe actual number
+  #we can honestly out this all in main.py if needed
+      
